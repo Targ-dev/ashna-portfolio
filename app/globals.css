@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+:root {
+  --color-paper: #f4ede2;
+  --color-paper-dim: #ece3d5;
+  --color-ink: #14120f;
+  --color-ink-soft: #14120fcc;
+  --color-accent: #d96a4a;
+  --color-line: #14120f22;
+
+  --font-display: var(--font-bricolage);
+  --font-body: var(--font-inter);
+}
+
+@theme inline {
+  --color-paper: var(--color-paper);
+  --color-paper-dim: var(--color-paper-dim);
+  --color-ink: var(--color-ink);
+  --color-accent: var(--color-accent);
+  --color-line: var(--color-line);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-paper);
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  cursor: default;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body.has-custom-cursor,
+  body.has-custom-cursor a,
+  body.has-custom-cursor button {
+    cursor: none;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.split-line {
+  overflow: hidden;
+  display: block;
+}
+
+.split-word {
+  display: inline-block;
+  will-change: transform;
+}
+
+.char {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.thin-scroll::-webkit-scrollbar {
+  height: 3px;
+}
+.thin-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-ink);
+}

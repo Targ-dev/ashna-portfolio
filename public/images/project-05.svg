@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500">
+  <rect width="1200" height="1500" fill="#f0ecf7" />
+  <circle cx="600.0" cy="750.0" r="700" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.06" />
+<circle cx="600.0" cy="750.0" r="630" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.09" />
+<circle cx="600.0" cy="750.0" r="560" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.12" />
+<circle cx="600.0" cy="750.0" r="490" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.15" />
+<circle cx="600.0" cy="750.0" r="420" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.18" />
+<circle cx="600.0" cy="750.0" r="350" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.21" />
+<circle cx="600.0" cy="750.0" r="280" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.24" />
+<circle cx="600.0" cy="750.0" r="210" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.27" />
+<circle cx="600.0" cy="750.0" r="140" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.3" />
+<circle cx="600.0" cy="750.0" r="70" fill="none" stroke="#8a4ad9" stroke-width="3" opacity="0.33" />
+<circle cx="600.0" cy="750.0" r="90" fill="#8a4ad9" opacity="0.9" />
+  <rect width="1200" height="1500" fill="url(#grain)" opacity="0.03" />
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <rect width="1600" height="1000" fill="#111111"/>
+  <g opacity="0.9">
+    <circle cx="1150" cy="500" r="420" fill="none" stroke="#f3ede4" stroke-width="1.5" opacity="0.25"/>
+    <circle cx="1150" cy="500" r="320" fill="none" stroke="#f3ede4" stroke-width="1.5" opacity="0.3"/>
+    <circle cx="1150" cy="500" r="220" fill="#d96a4a" opacity="0.85"/>
+  </g>
+  <text x="90" y="880" font-family="Georgia, serif" font-size="42" fill="#f3ede4" opacity="0.85">Selected work — Showreel</text>
+</svg>
